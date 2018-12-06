@@ -1,7 +1,7 @@
 <?php 
 
 	// Config
-	$redirectTo = 'https://www.trimardeau.com/';
+	$redirectTo = 'https://www.yourdomain.tld/';
 	// On récupère la liste des bots connus
 	$botListRaw = file_get_contents('./botlist.txt');
 	$botList = explode("\n",$botListRaw);
